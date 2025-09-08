@@ -1,0 +1,90 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+        <meta charset="utf-8"><!-- 文字コード指定。ここはこのままで。 -->
+        <title>m.iのプロフィール</title>
+
+    </head>
+
+  <body>
+
+
+    <!-- 見出し 第１レベル -->
+    <!--（氏名）の公開を避ける場合はイニシャルやニックネームでOK-->
+    <h1 id="midashi_1"> M.Iのプロフィール </h1>
+
+
+    <!--自分を象徴するような画像を入れてみよう-->
+    <!--画像も同じフォルダにアップロードすること-->
+    <a href="https://inosho.men/shop/inosho/" target="_blank"><img src="teachprf.jpg" alt="プロフィール画像" title="プロフィール画像" width="320px" ></a><br>
+    （画像についてひとこと：ラーメン巡りが好きです）
+
+    <hr>
+
+    <!-- 見出し 第２レベル ・以下、h2レベルで項目を色々書いていきましょう -->
+    <!-- 自己紹介で言いたい項目を見出しにいれて、文章をつくりましょう。項目名は編集OK。項目を足してもOK。 -->
+    <h2>所属など</h2>
+    　<br>埼玉の端から東京の端へ通学しています（二時間弱）<br>
+    ゼミでは哲学を学んでいます<br>
+
+
+    <h2>趣味や属性</h2>
+    　<br>散歩が趣味です。<br>
+    おすすめのグルメ知りたいです<br>
+
+
+    <!-- HTMLで出来る色々な表現を試す -->
+    <!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+    <!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+    <!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+    <!-- ol ・ ul 片方でOK -->
+    <h2>ラーメンまぜそばトップ３</h2>
+    <strong> 私の好きな麺のトップ３です！</strong><br>
+    <!-- ↑文字に意味を持たせることもできます。strong は強調。太字になります。 -->
+
+    <ol>
+        <li> <a href="https://x.com/youjinbouH" target="_blank">用心棒冷やしまぜそば</a></li>
+        <li> <a href="https://inosho.men/shop/inosho/" target="_blank">麺処　井の庄　辛辛魚らーめん</a></li>
+        <li> <a href="https://tanaka-shoten.net/shop/?id=0030006" target="_blank">田中そば店　冷かけ中華そば</a></li>
+    </ol>
+
+
+    <hr>
+
+    <!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+    <h2>その他</h2>
+    <!-- 見出し 第３レベル -->
+    <h3>使用PC</h3><!-- 編集して、自分の使うPCだけ残しましょう -->
+     Windows
+    
+
+    <h3>PC利用経験や、普段の使い方</h3>
+    YouTubeか大学の課題作成に使っています<br>
+    最近はk-popをよく聞きます<br>
+
+    <h3>自分の強みや弱みなど</h3>
+    強み：やりだせばつまずくまであきらめないです<br>
+    <br>
+    弱み：やりだすまでが遅いです<br>
+
+
+    <h3>TECH-BASE参加にあたり、意気込み</h3>
+    初心者ですが足を引っ張らないように頑張ります<br>
+
+
+    <hr>
+    <a href="#midashi_1"> このページのTOPへ </a> ／ <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+
+    <hr>
+
+    <!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しておらずエラーが発生します。 -->
+    <!-- したがって今はコピペするだけでOKです。スタートアップ以降のPHPミッションを進める際に、参考にしてください。 -->
+    <form method="POST" action="">
+        お名前：<input type="text" name="name"><br>
+        コメント：<input type="text" name="comment"><br>
+        <input type="submit" name="submit" value="送信">
+    </form>
+
+ </body>
+    
+</html>
